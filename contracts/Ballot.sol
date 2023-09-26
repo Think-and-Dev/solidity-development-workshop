@@ -100,7 +100,7 @@ contract Ballot is Initializable, OwnableUpgradeable {
         return address(this).balance;
     }
 
-    // function newFunctionAfterDeplou() public pure returns (string memory) {
+    // function newFunctionAfterDeploy() public pure returns (string memory) {
     //     return "This function was added after the contract was deployed";
     // }
 

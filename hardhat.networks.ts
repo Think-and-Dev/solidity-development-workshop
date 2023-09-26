@@ -66,7 +66,7 @@ if (mnemonic) {
     tags: ['prod'],
   };
 
-  networks.polygonMumbai = {
+  networks.mumbai = {
     live: true,
     chainId: 80001,
     url: 'https://rpc-mumbai.maticvigil.com/',
@@ -74,6 +74,14 @@ if (mnemonic) {
       mnemonic,
     },
     tags: ['staging'],
+  };
+
+  networks.fuji = {
+    url: 'https://ava-testnet.public.blastapi.io/ext/bc/C/rpc	',
+    accounts: {
+      mnemonic
+    },
+    chainId: 43113,
   };
 }
 
